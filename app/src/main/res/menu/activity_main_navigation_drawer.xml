@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Dashboard"
+            android:icon="@drawable/ic_action_menu_items"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_Kannada"
+            android:icon="@drawable/ic_action_menu_items"
+            android:title="Kannada" />
+        <item
+            android:id="@+id/nav_English"
+            android:icon="@drawable/ic_action_menu_items"
+            android:title="English" />
+        <item
+            android:id="@+id/nav_Hindi"
+            android:icon="@drawable/ic_action_menu_items"
+            android:title="Hindi" />
+        <item
+            android:id="@+id/nav_Social"
+            android:icon="@drawable/ic_action_menu_items"
+            android:title="Social" />
+        <item
+            android:id="@+id/nav_Science"
+            android:icon="@drawable/ic_action_menu_items"
+            android:title="Science" />
+        <item
+            android:id="@+id/nav_Maths"
+            android:icon="@drawable/ic_action_menu_items"
+            android:title="Maths" />
+        <item
+            android:id="@+id/nav_Computers"
+            android:icon="@drawable/ic_action_menu_items"
+            android:title="Computers" />
+    </group>
+
+</menu>
